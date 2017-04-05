@@ -1,9 +1,13 @@
-React Environment using webpack and babel
-https://scotch.io/tutorials/setup-a-react-environment-using-webpack-and-babel
+This is react web project using cordova to produce mobile application.
+React Web & Mobile one source based.
 
-cordova create <path> --template <react_project_path>
+## What I followed to create this project
+React Environment using webpack and babel<br>
+https://scotch.io/tutorials/setup-a-react-environment-using-webpack-and-babel<br>
 
+cordova create <path> --template <react_project_path><br>
 
+## Command
 - to generate dist source<br>
 npm run dist
 
@@ -13,10 +17,12 @@ npm start
 - to run dev mode (hot deploy into distribution directory)<br>
 npm run dev
 
-to start<br>
+## How to Start
+- npm install -g cordova
 - npm dist
-- cordova platform add android
+- cordova platform add <ios or android>
 
+## Cordova hot deploy
 https://github.com/nordnet/cordova-hot-code-push
 apply mobile hot deploy plugin<br>
 - cordova plugin add cordova-hot-code-push-plugin
@@ -25,4 +31,3 @@ apply mobile hot deploy plugin<br>
 
 start local mobile server<br>
 - cordova-hcp server
-
