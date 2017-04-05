@@ -1,4 +1,4 @@
-This is react web project using cordova to produce mobile application.
+This is react web project using cordova to produce mobile application.<br>
 React Web & Mobile one source based.
 
 ## What I followed to create this project
@@ -23,11 +23,13 @@ npm run dev
 - cordova platform add <ios or android>
 
 ## Cordova hot deploy
-https://github.com/nordnet/cordova-hot-code-push
+https://github.com/nordnet/cordova-hot-code-push<br>
 apply mobile hot deploy plugin<br>
 - cordova plugin add cordova-hot-code-push-plugin
 - cordova plugin add cordova-hot-code-push-local-dev-addon
 - npm install -g cordova-hot-code-push-cli
+* In case if you are working inside proxy, I added hot code plugins as a zip file(plugins-proxy.zip)
 
 start local mobile server<br>
 - cordova-hcp server
+
